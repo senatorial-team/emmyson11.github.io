@@ -49,14 +49,37 @@
 
                     <!-- STEM Opportunities Tabbed Section -->
                     <section id="stem-opportunities" style="width:100%; text-align:center;">
-                      <h2>STEM Opportunities</h2>
+
 
                       <!-- Tab buttons -->
                       <div class="tab">
                         <button class="tablinks" onclick="openTable(event, 'SoftwareEng')">Software Engineering</button>
                         <button class="tablinks" onclick="openTable(event, 'MachineLearning')">Machine Learning & AI</button>
                       </div>
+                        
+                    <!-- Tab Styles -->
+                    <style>
+                    .tab {
+                      display: flex;
+                      justify-content: center;
+                      margin-bottom: 1rem;
+                      border-bottom: 1px solid #ccc;
+                    }
+                    .tab button {
+                      background-color: inherit;
+                      border: none;
+                      cursor: pointer;
+                      padding: 12px 20px;
+                      transition: 0.3s;
+                      font-size: 16px;
+                      text-align: center;   /* ✅ centers text inside the button */
+                    }
+                    .tab button:hover { background-color: #eee; }
+                    .tab button.active { background-color: #ccc; }
+                    .tabcontent { display: none; padding: 10px 0; }
+                    </style>
 
+                        
                       <!-- Software Engineering Table -->
                       <div id="SoftwareEng" class="tabcontent">
                         <iframe class="airtable-embed"
@@ -165,3 +188,4 @@
 
     </body>
 </html>
+
