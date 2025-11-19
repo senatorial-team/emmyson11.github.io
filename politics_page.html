@@ -1,123 +1,179 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Politics Opportunities Portal</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<head>
+  <title>Politics Opportunities Portal</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/main.css" />
-		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+  <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-			<!-- Header -->
-			<header id="header">
-				<a class="logo">Politics Opportunities</a>
-			</header>
+    <!-- Header -->
+    <header id="header">
+      <a class="logo">Politics Opportunities</a>
+    </header>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about_us.html">About Us</a></li>
-				</ul>
-				<ul class="icons">
-					<li>
-						<a href="https://www.instagram.com/asucsenatorabnusy" class="icon brands fa-instagram">
-							<span class="label">Instagram</span>
-						</a>
-						<span class="handle">@asucsenatorabnusy</span>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/asucsenatormemon" class="icon brands fa-instagram">
-							<span class="label">Instagram</span>
-						</a>
-						<span class="handle">@asucsenatormemon</span>
-					</li>
-				</ul>
-			</nav>
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+      </ul>
+      <ul class="icons">
+        <li>
+          <a href="https://www.instagram.com/asucsenatorabnusy" class="icon brands fa-instagram">
+            <span class="label">Instagram</span>
+          </a>
+          <span class="handle">@asucsenatorabnusy</span>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/asucsenatormemon" class="icon brands fa-instagram">
+            <span class="label">Instagram</span>
+          </a>
+          <span class="handle">@asucsenatormemon</span>
+        </li>
+      </ul>
+    </nav>
 
-			<!-- Main -->
-			<div id="main">
+    <!-- Main -->
+    <div id="main">
+      <section class="posts" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
 
-				<!-- Posts -->
-				<section class="posts" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <!-- Politics Opportunities Tabbed Section -->
+        <section id="politics-opportunities" style="width:100%; text-align:center;">
+          <h2>Internships</h2>
 
-					<!-- Internships Section -->
-					<article style="margin-bottom: 4rem; width: 100%;">
-						<header>
-							<h2 style="text-align: center;">Internships</h2>
-						</header>
+          <!-- Tab buttons -->
+          <div class="tab">
+            <button class="tablinks" onclick="openTable(event, 'PublicSector')">Public Sector & Govt</button>
+            <button class="tablinks" onclick="openTable(event, 'HumanResources')">Human Resources</button>
+          </div>
 
-						<div style="display: flex; justify-content: center;">
-						  <iframe class="airtable-embed" 
-						          src="https://airtable.com/embed/appcUSsKv3NZC0Tw3/shrimGkP5RvvFnSAU?viewControls=on" 
-						          frameborder="0" 
-						          width="100%" 
-						          height="600" 
-						          style="background: transparent; border: 1px solid #ccc;">
-						  </iframe>
-						</div>
+          <!-- Public Sector & Govt Table -->
+          <div id="PublicSector" class="tabcontent">
+            <iframe class="airtable-embed"
+                    src="https://airtable.com/embed/appcUSsKv3NZC0Tw3/shrimGkP5RvvFnSAU?viewControls=on"
+                    frameborder="0"
+                    width="100%"
+                    height="600">
+            </iframe>
+          </div>
 
-						<p style="margin-top: 1rem;">
-							This sheet lists internship opportunities, including the company name, role title, location, and a direct application link, with “Age” showing how recently the opportunity was posted.
-						</p>
-					</article>
+          <!-- Human Resources Table -->
+          <div id="HumanResources" class="tabcontent">
+            <iframe class="airtable-embed"
+                    src="https://airtable.com/embed/appyGF0pekIR0p4qJ/shrxhUrCtEmdmGnVY?viewControls=on"
+                    frameborder="0"
+                    width="100%"
+                    height="600">
+            </iframe>
+          </div>
+        </section>
 
-				</section>
+      </section>
+    </div>
 
-			</div>
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <h3>Socials</h3>
+        <ul class="icons alt">
+          <li>
+            <a href="https://www.instagram.com/asucsenatorabnusy?igsh=NTc4MTIwNjQ2YQ==" class="icon brands alt fa-instagram">
+              <span class="label">Instagram</span>
+            </a>
+            <span class="handle">@asucsenatorabnusy</span>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/asucsenatormemon?igsh=NTc4MTIwNjQ2YQ==" class="icon brands alt fa-instagram">
+              <span class="label">Instagram</span>
+            </a>
+            <span class="handle">@asucsenatormemon</span>
+          </li>
+        </ul>
+      </section>
+      <section class="split contact">
+        <section>
+          <h3>Emails</h3>
+          <ul>
+            <li><a href="mailto:aabnusy05@berkeley.edu">aabnusy05@berkeley.edu</a></li>
+            <li><a href="mailto:abdullahmemon@berkeley.edu">abdullahmemon@berkeley.edu</a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<h3>Socials</h3>
-					<ul class="icons alt">
-						<li>
-							<a href="https://www.instagram.com/asucsenatorabnusy?igsh=NTc4MTIwNjQ2YQ==" class="icon brands alt fa-instagram">
-								<span class="label">Instagram</span>
-							</a>
-							<span class="handle">@asucsenatorabnusy</span>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/asucsenatormemon?igsh=NTc4MTIwNjQ2YQ==" class="icon brands alt fa-instagram">
-								<span class="label">Instagram</span>
-							</a>
-							<span class="handle">@asucsenatormemon</span>
-						</li>
-					</ul>
-				</section>
-				<section class="split contact">
-					<section>
-						<h3>Emails</h3>
-						<ul>
-							<li><a href="mailto:aabnusy05@berkeley.edu">aabnusy05@berkeley.edu</a></li>
-							<li><a href="mailto:abdullahmemon@berkeley.edu">abdullahmemon@berkeley.edu</a></li>
-						</ul>
-					</section>
-				</section>
-			</footer>
+  </div>
 
-		</div>
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.scrollex.min.js"></script>
+  <script src="js/jquery.scrolly.min.js"></script>
+  <script src="js/browser.min.js"></script>
+  <script src="js/breakpoints.min.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/main.js"></script>
 
-		<!-- Scripts -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/browser.min.js"></script>
-		<script src="js/breakpoints.min.js"></script>
-		<script src="js/util.js"></script>
-		<script src="js/main.js"></script>
+  <!-- Tab Script -->
+  <script>
+    function openTable(evt, tableName) {
+      var tabcontent = document.getElementsByClassName("tabcontent");
+      for (var i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      var tablinks = document.getElementsByClassName("tablinks");
+      for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tableName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelector(".tablinks").click();
+    });
+  </script>
 
-	</body>
+  <!-- Tab Styles -->
+  <style>
+    .tab {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .tab button {
+      background-color: inherit;
+      border: none;
+      cursor: pointer;
+      padding: 12px 20px;
+      transition: 0.3s;
+      font-size: 16px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tab button:hover {
+      background-color: #eee;
+    }
+
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    .tabcontent {
+      display: none;
+      padding: 10px 0;
+    }
+  </style>
+
+</body>
 </html>
-
-
-
-
-
-
